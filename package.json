@@ -1,7 +1,7 @@
 {
-  "name": "mobiel-nieuws-demo",
+  "name": "museumapp",
   "version": "1.0.0",
-  "description": "Mobiele nieuwssite",
+  "description": "Mobiele museumapp",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -11,14 +11,13 @@
   },
   "keywords": [
     "web",
-    "nieuws",
-    "technology",
+    "museum",
+    "application",
     "node",
     "express"
   ],
-  "author": "Kristof Michiels",
-  "license": "ISC"
-  },
+  "author": "Raf Van Delm",
+  "license": "ISC",
   "homepage": "",
   "dependencies": {
     "ejs": "^2.5.6",
