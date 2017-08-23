@@ -11,8 +11,8 @@ function main() {
                 navKnop.style.transition= "ease-in 0.5s";
                 navKnop.style.width="50px";
                 navKnop.style.height="50px";
-                navClose.style.top="100px";
-                navClose.style.left="-100vw";
+                navClose.style.top="150px";
+                navClose.style.left="-80vw";
                 navColor.innerHTML= "&#9677;"
               }else{
                 navigatie.style.left = '0vw'
@@ -20,7 +20,7 @@ function main() {
                 navKnop.style.transition= "ease-out 0.5s"
                 navKnop.style.width="100%";
                 navKnop.style.height="100%";
-                navClose.style.top="450px";
+                navClose.style.top="calc(100% - 50px)";
                 navClose.style.left="10%";
                 navColor.innerHTML= "color"
               }
