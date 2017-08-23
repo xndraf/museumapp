@@ -4,6 +4,20 @@ a{
   color: rgb(34, 36, 37);
   text-decoration: none;
 }
+.disclaimer{
+  font-size: 50px;
+  font-family: 'Rubik Mono One', sans-serif;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgba(34, 36, 37, 0.5);
+}
+@media (max-width: 500px)  {
+  .disclaimer{
+    display: none;
+  }
+}
+
 .container{
   width: 85%;
   margin: auto;
@@ -28,7 +42,7 @@ p.navclose{
   transition: 0.5s ease;
   font-size: 17px;
   top: 100px;
-  left: -250px;
+  left: -100vw;
   color: white;
   font-family: 'Roboto Slab', sans-serif;
   position: fixed;

@@ -12,7 +12,7 @@ function main() {
                 navKnop.style.width="50px";
                 navKnop.style.height="50px";
                 navClose.style.top="100px";
-                navClose.style.left="-250px";
+                navClose.style.left="-100vw";
                 navColor.innerHTML= "&#9677;"
               }else{
                 navigatie.style.left = '0vw'
