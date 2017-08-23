@@ -119,6 +119,9 @@ p.parabody{
   margin-top: 20px;
 }
 p.category{
+  width: 85%;
+  margin: auto;
+  margin-top: 25px;
   font-family: 'Rubik Mono One', sans-serif;
 }
 h4{

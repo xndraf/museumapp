@@ -16,5 +16,5 @@ app.use(require("./routes/nieuws_router"));
 app.use(require("./routes/categorieen_router"));
 
 app.listen(app.get('port'), function() {
-  console.log('Ge vindt het op', app.get('port'));
+  console.log('Ge vindt het op uw favoriete poort, poort', app.get('port'));
 });
